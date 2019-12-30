@@ -6,6 +6,8 @@ server:
     port: 8081
 spring:
     profiles: dev
+    application:
+        name: aaa
 eureka:
     client:
         defaultZone: http://eureka7001.com:7001/eureka
