@@ -6,6 +6,8 @@ server:
     port: 8081
 spring:
     profiles: dev
+    application: 
+        name: microservice-config-dev
 eureka:
     client:
         defaultZone: http://eureka7001.com:7001/eureka
@@ -14,6 +16,8 @@ server:
     port: 8082
 spring:
     profiles: test
+    application: 
+        name: microservice-config-test
 eureka:
     client:
         defaultZone: http://eureka7002.com:7002/eureka
